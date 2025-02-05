@@ -1,5 +1,6 @@
 # frozen_string_literal: true
 
+require_relative "hsa/calculator"
 require_relative "hsa/version"
 
 module Hsa
