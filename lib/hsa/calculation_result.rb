@@ -13,7 +13,8 @@ module Hsa
 
       @income_tax_result = ::USIncomeTax::Calculator.calculate(@year, @gross_income, @type)
 
-      # TODO: Load data/hsa_max_contribution.json
+      loaded_static_max_contribution_data = ::Hsa::HsaHsaMaxContributionDataLoader.load
+
       # TODO: Reference: https://github.com/serv/us_income_tax/blob/master/lib/us_income_tax/calculation_result.rb
       # TODO: Load HSABrackets
     end
