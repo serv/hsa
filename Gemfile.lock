@@ -35,7 +35,7 @@ GEM
     unicode-display_width (3.1.4)
       unicode-emoji (~> 4.0, >= 4.0.4)
     unicode-emoji (4.0.4)
-    us_income_tax (0.1.0)
+    us_income_tax (0.1.2)
 
 PLATFORMS
   arm64-darwin-23
@@ -46,7 +46,7 @@ DEPENDENCIES
   minitest (~> 5.16)
   rake (~> 13.0)
   rubocop (~> 1.21)
-  us_income_tax (~> 0.1.0)
+  us_income_tax (~> 0.1.2)
 
 BUNDLED WITH
    2.5.16

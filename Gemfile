@@ -11,4 +11,4 @@ gem "minitest", "~> 5.16"
 
 gem "rubocop", "~> 1.21"
 
-gem 'us_income_tax', '~> 0.1.0'
+gem "us_income_tax", "~> 0.1.2"

@@ -11,7 +11,6 @@ module Hsa
       @hsa_contribution_amount = hsa_contribution_amount
       @hsa_type = hsa_type
 
-      # TODO: need to test
       @income_tax_result = ::USIncomeTax::Calculator.calculate(@year, @gross_income, @type)
 
       # TODO: Load data/hsa_max_contribution.json
